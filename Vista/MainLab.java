@@ -1,11 +1,14 @@
-
-
 public class MainLab {
     public static void main(String[] args) {
         boolean salir = false;
 
+        // Para la interface gráfica
+        //interfaz principal = new interfaz();
+        //principal.setVisible(true);
+
+
         while (!salir) {
-            System.out.println("Bienvenido a mi laboratorio");
+            System.out.println("Bienvenido a WandLab, laboratorio de biología");
             System.out.println("Opciones:");
             System.out.println("1. Cargar experimentos");
             System.out.println("2. Ver experimento");
@@ -18,7 +21,7 @@ public class MainLab {
             switch (opcion) {
                 case "1":
                     System.out.println("Cargando experimentos...");
-                    // Lógica para cargar experimentos
+                    seleccionar();
                     break;
                 case "2":
                     System.out.println("Viendo experimento...");
