@@ -70,23 +70,8 @@ public class Experimento {
     }
     
     // Métodos
-    Experimento crearExperimento(){
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("Nombre del experimento:");
-            String nombre = scanner.nextLine();
-
-            System.out.println("Numero de bacterias:");
-            int numBacterias = scanner.nextInt();
-
-            System.out.println("Temperatura en grados centígrados:");
-            double temperatura = scanner.nextDouble();
-
-            System.out.println("Luminosidad:");
-            String luminosidadInput = scanner.nextLine();
-            Luminosidad luminosidad = Luminosidad.valueOf(luminosidadInput.toUpperCase());
-
-            System.out.println("Dosis comida (1-100):");
-            int dosisComida = scanner.nextInt();
+    public void crearExperimento(){
+            
 
             // Crear el objeto Experimento con los valores ingresados por el usuario
             Experimento experimento = new Experimento(nombre, fechaInicio, fechaFin, numBacterias, temperatura, luminosidad, dosisComida);
