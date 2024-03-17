@@ -12,7 +12,7 @@ public class Poblacion {
     private int dosisComida;
 
     // Constructor
-    public Experimento(String nombre, int numBacterias, double temperatura, Luminosidad luminosidad, int dosisComida) {
+    public void Experimento(String nombre, int numBacterias, double temperatura, Luminosidad luminosidad, int dosisComida) {
         this.nombre = nombre;
         this.numBacterias = numBacterias;
         this.temperatura = temperatura;
@@ -65,11 +65,13 @@ public class Poblacion {
     }
     
     // Métodos
+    /*
     crearExperimento(); 
     gestionarPoblacion();
     guardarArchivo();
     crearPoblacion();
     visualizarPoblaciones();
     borrarPoblacion();
-    verDetallesPoblacion();
+    verDetallesPoblacion();*/
+    
 }

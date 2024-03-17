@@ -1,5 +1,4 @@
-import java.util.Scanner;
-import java.util.Scanner;
+
 public class MainLab {
     public static void main(String[] args) {
         boolean salir = false;
