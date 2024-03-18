@@ -1,3 +1,4 @@
+package Codigo;
 
 public class Dosis extends Poblacion {
     int cantidadInicial;

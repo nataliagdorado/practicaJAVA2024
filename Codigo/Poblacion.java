@@ -1,15 +1,12 @@
-public class Poblacion {
-    public enum Luminosidad {
-        ALTA,
-        MEDIA,
-        BAJA
-    }
-    
+package Codigo;
+
+public class Poblacion extends Experimento {
+
     private String nombre;
     private int numBacterias;
     private double temperatura;
     private Luminosidad luminosidad;
-    private int dosisComida;
+    private Dosis dosisComida;
 
     // Constructor
     public void Experimento(String nombre, int numBacterias, double temperatura, Luminosidad luminosidad, int dosisComida) {
